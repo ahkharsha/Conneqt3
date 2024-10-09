@@ -7,7 +7,7 @@ import socialMediaDapp from "./SocialMediaDapp.json";
 export const CONTRACT_ABI = socialMediaDapp.abi;
 export const CONTRACT_ADDRESS = "0x667e64FDf36fB1512DEfFca951dDFc3f56461bd5";
 
-// PINATA KEYS from .env.local
+// PINATA KEYS from .env
 export const PINATA_API_KEY = process.env.NEXT_PUBLIC_PINATA_API_KEY;
 export const PINATA_SECRET_KEY = process.env.NEXT_PUBLIC_PINATA_SECRET_KEY;
 
