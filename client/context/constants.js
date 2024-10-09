@@ -5,13 +5,13 @@ import axios from "axios";
 import socialMediaDapp from "./SocialMediaDapp.json";
 
 export const CONTRACT_ABI = socialMediaDapp.abi;
-export const CONTRACT_ADDRESS = "0x9334C7113a66Abb257dcE66547193B8b24664AE0";
+export const CONTRACT_ADDRESS = "0x667e64FDf36fB1512DEfFca951dDFc3f56461bd5";
 
 //PINATA KEYS
 export const PINATA_API_KEY = "da212708ca61ceb1b91d";
 export const PINATA_SECRET_KEY = "ce9bea71753244b0e67a0b3039e09889b69d15b863d25f3b9110449afae55c05";
 
-//NETWORK
+// NETWORK
 const networks = {
   polygon_amoy: {
     chainId: `0x${Number(80002).toString(16)}`,
@@ -57,6 +57,17 @@ const networks = {
     rpcUrls: ["https://rpc.ankr.com/bsc"],
     blockExplorerUrls: ["https://bscscan.com"],
   },
+  bsc_testnet: {
+    chainId: `0x${Number(97).toString(16)}`,
+    chainName: "BNB Smart Chain Testnet",
+    nativeCurrency: {
+      name: "Binance Chain Native Token",
+      symbol: "BNB",
+      decimals: 18,
+    },
+    rpcUrls: ["https://bsc-testnet-rpc.publicnode.com"],
+    blockExplorerUrls: ["https://testnet.bscscan.com"],
+  },
   base_mainnet: {
     chainId: `0x${Number(8453).toString(16)}`,
     chainName: "Base Mainnet",
@@ -90,6 +101,28 @@ const networks = {
     rpcUrls: ["http://127.0.0.1:8545/"],
     blockExplorerUrls: ["https://bscscan.com"],
   },
+  open_campus_codex: {
+    chainId: `0x${Number(656476).toString(16)}`,
+    chainName: "Open Campus Codex",
+    nativeCurrency: {
+      name: "EDU",
+      symbol: "EDU",
+      decimals: 18,
+    },
+    rpcUrls: ["https://rpc.open-campus-codex.gelato.digital"],
+    blockExplorerUrls: ["https://opencampus-codex.blockscout.com"],
+  },
+  neox_testnet: {
+    chainId: `0x${Number(12227332).toString(16)}`,
+    chainName: "NeoX Testnet T4",
+    nativeCurrency: {
+      name: "NeoX",
+      symbol: "GAS",
+      decimals: 18,
+    },
+    rpcUrls: ["https://12227332.rpc.thirdweb.com"],
+    blockExplorerUrls: ["https://xexplorer.neo.org/"],
+  },
 };
 
 const changeNetwork = async ({ networkName }) => {
@@ -109,7 +142,7 @@ const changeNetwork = async ({ networkName }) => {
 };
 
 export const handleNetworkSwitch = async () => {
-  const networkName = "polygon_amoy";
+  const networkName = "neox_testnet";
   await changeNetwork({ networkName });
 };
 
