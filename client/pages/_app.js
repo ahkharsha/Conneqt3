@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
           sizes="16x16"
           href="images/favicon.png"
         />
-        <title>@CryptoVentureInnovators Social</title>
+        <title>Conneqt3</title>
       </Head>
       <SOCAIL_MEDIA_Provider>
         <Component {...pageProps} />

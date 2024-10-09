@@ -16894,3 +16894,15 @@ select.sort {
     font-size: 16px;
   }
 }
+
+.active-light-mode .logo-custom-css .logo-dark {
+  display: block;
+}
+
+.active-light-mode .logo-custom-css .logo-light {
+  display: none;
+}
+
+.active-light-mode .logo-custom-css::after {
+  background: var(--color-border-white);
+}

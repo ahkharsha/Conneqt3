@@ -477,19 +477,19 @@ export const SOCAIL_MEDIA_Provider = ({ children }) => {
 
       const GROUP_NAME_1 = "DEFI";
       const GROUP_DES_1 =
-        "The Blockchain Coders brings together organizations from across web3 to create the largest community learning blockchain education. ‍ ";
+        "CryptoVentureInnovators brings together organizations from across web3 to create the largest community learning blockchain education. ‍ ";
 
       // const GROUP_NAME_2 = "NFT";
       // const GROUP_DES_2 =
-      //   "The Blockchain Coders brings together organizations from across web3 to create the largest community learning blockchain education. ";
+      //   "CryptoVentureInnovators brings together organizations from across web3 to create the largest community learning blockchain education. ";
 
       // const GROUP_NAME_3 = "DEVELOPER";
       // const GROUP_DES_3 =
-      //   "The Blockchain Coders brings together organizations from across web3 to create the largest community learning blockchain education. ";
+      //   "CryptoVentureInnovators brings together organizations from across web3 to create the largest community learning blockchain education. ";
 
       // const GROUP_NAME_4 = "WEB3";
       // const GROUP_DES_4 =
-      //   "The Blockchain Coders brings together organizations from across web3 to create the largest community learning blockchain education. ";
+      //   "CryptoVentureInnovators brings together organizations from across web3 to create the largest community learning blockchain education. ";
 
       const transaction = await SOCIAL_CONTRACT.createGroup(
         GROUP_NAME_1,
@@ -500,7 +500,7 @@ export const SOCAIL_MEDIA_Provider = ({ children }) => {
 
       setCount(count + 1);
       setLoader(false);
-      notifySuccess("Groud created successfully");
+      notifySuccess("Group created successfully");
     } catch (error) {
       setLoader(false);
       const errorMsg = parseErrorMsg(error);

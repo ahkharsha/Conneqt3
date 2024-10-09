@@ -1,6 +1,8 @@
 import React from "react";
 import { PiChatsCircleFill } from "react-icons/pi";
 import { BsSearch, BsCameraVideo } from "react-icons/bs";
+import Link from "next/link";
+import React from "react";
 
 const IconComponent = ({ icon }) => (
   <i class=" text-grey-900 font-sm btn-round-md bg-greylight">{icon}</i>
@@ -18,7 +20,14 @@ const NavTop = ({
     <div class="nav-top">
       <a onClick={() => functionName()}>
         {/* <a href="/"> */}
-        <i class="feather-zap text-success display1-size me-2 ms-0"></i>
+        <div className="logo-thumbnail logo-custom-css">
+          <Link className="logo-light" href="/">
+            <img src="/logo/logo-white.png" alt="nft-logo" />
+          </Link>
+          <Link className="logo-dark" href="/">
+            <img src="/logo/logo-dark.png" alt="nft-logo" />
+          </Link>
+        </div>
         <span class="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
           Conneqt3
         </span>
