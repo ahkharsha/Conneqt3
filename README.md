@@ -4,7 +4,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/Conneqt3)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 
-<img src="https://github.com/user-attachments/assets/0b6cfe1c-0649-4085-aed3-d601f4370877" alt="logo-white" width="40"/>
+<img src="https://github.com/user-attachments/assets/0b6cfe1c-0649-4085-aed3-d601f4370877" alt="logo-white" width="150"/>
 
 
 ---
