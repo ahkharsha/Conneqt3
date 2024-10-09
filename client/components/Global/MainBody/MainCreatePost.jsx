@@ -30,7 +30,7 @@ const MainCreatePost = ({ setOpenCreatePost }) => {
           />
         </figure>
         <textarea
-          onClick={() => setOpenCreatePost(true)}
+          onFocus={() => setOpenCreatePost(true)}
           name="message"
           class="h100 bor-0 w-100 rounded-xxl p-2 ps-5 font-xssss text-grey-500 fw-500 border-light-md theme-dark-bg"
           cols="30"
