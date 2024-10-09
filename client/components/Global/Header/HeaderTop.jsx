@@ -2,7 +2,6 @@ import React from "react";
 import { PiChatsCircleFill } from "react-icons/pi";
 import { BsSearch, BsCameraVideo } from "react-icons/bs";
 import Link from "next/link";
-import React from "react";
 
 const IconComponent = ({ icon }) => (
   <i class=" text-grey-900 font-sm btn-round-md bg-greylight">{icon}</i>
