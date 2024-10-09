@@ -19,14 +19,15 @@ const NavTop = ({
     <div class="nav-top">
       <a onClick={() => functionName()}>
         {/* <a href="/"> */}
-        <div className="logo-thumbnail logo-custom-css">
+        {/* s */}
+        {/* <div className="logo-thumbnail logo-custom-css">
           <Link className="logo-light" href="/">
             <img src="/logo/logo-white.png" alt="nft-logo" />
           </Link>
           <Link className="logo-dark" href="/">
             <img src="/logo/logo-dark.png" alt="nft-logo" />
           </Link>
-        </div>
+        </div> */}
         <span class="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
           Conneqt3
         </span>
