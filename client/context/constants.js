@@ -8,8 +8,8 @@ export const CONTRACT_ABI = socialMediaDapp.abi;
 export const CONTRACT_ADDRESS = "0x9334C7113a66Abb257dcE66547193B8b24664AE0";
 
 //PINATA KEYS
-export const PINATA_API_KEY = "API_KEY";
-export const PINATA_SECRECT_KEY = "SECERCT_KEY";
+export const PINATA_API_KEY = "da212708ca61ceb1b91d";
+export const PINATA_SECRET_KEY = "ce9bea71753244b0e67a0b3039e09889b69d15b863d25f3b9110449afae55c05";
 
 //NETWORK
 const networks = {
