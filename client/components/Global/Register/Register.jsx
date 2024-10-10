@@ -32,7 +32,7 @@ const register = ({
             <div class="card shadow-none border-0 ms-auto me-auto login-card">
               <div class="card-body rounded-0 text-left">
                 <h2 class="fw-700 display1-size display2-md-size mb-4">
-                  Create your account
+                  Create your account using MetaMask
                 </h2>
                 <div>
                   <Input

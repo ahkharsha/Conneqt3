@@ -38,7 +38,8 @@ const MainCreatePost = ({ setOpenCreatePost }) => {
           class="h100 bor-0 w-100 rounded-xxl p-2 ps-5 font-xssss text-grey-500 fw-500 border-light-md theme-dark-bg"
           cols="30"
           rows="10"
-          placeholder="What's on your mind?"
+          // placeholder="What's on your mind?"
+          placeholder="Creating post functionality is under development. Sorry for the inconvenience. Meanwhile, feel free to use the other features like Follow, Direct Messaging, Community Groups, Feeds etc."
         ></textarea>
       </div>
       <div class="card-body d-flex p-0 mt-0">
